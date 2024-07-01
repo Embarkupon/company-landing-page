@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: hsla(660, 20%, 20%, .8);
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    background-color: hsla(680, 20%, 20%, .6);
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: hsla(700, 80%, 80%, .8);
+    padding: 16px;
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+    padding: 0px;
+    margin: 0px;
+}
