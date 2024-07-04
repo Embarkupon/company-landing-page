@@ -115,9 +115,58 @@ body {
 }
 
 .quote {
+    flex: 1;
     font-size: 32px;
 }
 
 .quote-source {
     align-self: flex-end;
 }
+
+/* call to action section */
+.container-cta {
+    margin: 100px;
+    margin-left: 125px;
+    margin-right: 125px;
+    display: flex;
+    justify-content: center;
+}
+
+.box-cta {
+    flex: 1;
+    background-color: hsla(680, 20%, 20%, .6);
+    border-radius: 16px;
+    border: 5px solid hsla(680, 20%, 20%, 0);
+    padding: 32px;
+    padding-left: 128px;
+    padding-right: 128px;
+    color: hsla(700, 80%, 80%, .8);
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-title {
+    font-size: 32px;
+}
+
+.cta {
+    font-size: 18px;
+}
+
+.button-cta {
+    background-color: transparent;
+    border-radius: 10px;
+    border-style: none;
+    border: 2px solid hsla(700, 80%, 80%, .8);
+    color: hsla(700, 80%, 80%, .8);
+    padding: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+/* footer */
+
+.footer {
+
+}
+
