@@ -2,29 +2,21 @@ body {
     display: flex;
     flex-direction: column;
     background-color: hsla(660, 20%, 20%, .8);
+    font-family: 'Hero Main Text', sans-serif;
     padding: 0px;
     margin: 0px;
 }
 
-/* header section */
-
-.header {
-    background-color: hsla(680, 20%, 20%, .6);
-    margin: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    color: hsla(700, 80%, 80%, .8);
-    padding: 16px;
-    padding-left: 100px;
-    padding-right: 100px;
+.logo {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .links {
     display: flex;
     list-style-type: none;
     gap: 24px;
+    font-size: 18px;
     padding: 0px;
     margin: 0px;
 }
@@ -35,37 +27,59 @@ body {
     display: flex;
     background-color: hsla(680, 20%, 20%, .6);
     color: hsla(700, 80%, 80%, .8);
+    justify-content: space-between;
+    flex-direction: column;
     gap: 100px;
-    padding: 72px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 16px;
 }
 
-.title-left {
-    flex: 1 1 0;
+.header {
+    flex: auto;
+    margin: 0px;
     display: flex;
-    flex-direction: column;
-    width: 360px;
-    gap: 4px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: hsla(700, 80%, 80%, .8);
 }
 
 .title {
-    font-size: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-left {
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 4px;
+}
+
+.title-text {
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 .title-subtext {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .title-button {
-    width: 100px;
-    height: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 8px;
+    width: 140px;
+    height: 40px;
     background-color: hsla(380, 80%, 80%, .8);
+    border-radius: 5px;
+    border-style: none;
 }
 
 .title-image {
-    width: 360px;
-    height: 160px;
+    flex: 0 1 auto;
+    width: 500px;
+    height: 250px;
 }
 
 /* information section */
@@ -79,6 +93,8 @@ body {
 
 .information-title {
     align-self: center;
+    font-size: 36px;
+    font-weight: bolder;
 }
   
 .information {
@@ -159,9 +175,8 @@ body {
     border-style: none;
     border: 2px solid hsla(700, 80%, 80%, .8);
     color: hsla(700, 80%, 80%, .8);
-    padding: 8px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 /* footer */
