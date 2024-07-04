@@ -167,6 +167,17 @@ body {
 /* footer */
 
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: hsla(680, 20%, 20%, .6);
+    color: hsla(700, 80%, 80%, .8);
+}
 
+.footer-text {
+    flex: 1 1 1;
 }
 
