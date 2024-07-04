@@ -6,6 +6,8 @@ body {
     margin: 0px;
 }
 
+/* header section */
+
 .header {
     background-color: hsla(680, 20%, 20%, .6);
     margin: 0px;
@@ -26,6 +28,8 @@ body {
     padding: 0px;
     margin: 0px;
 }
+
+/* title section */
 
 .container-title {
     display: flex;
@@ -62,4 +66,36 @@ body {
 .title-image {
     width: 360px;
     height: 160px;
+}
+
+/* information section */
+
+.container-information {
+    display: flex;
+    flex-direction: column;
+    color: hsla(700, 80%, 80%, .8);
+    padding: 48px;
+}
+
+.information-title {
+    align-self: center;
+}
+  
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    justify-content: center;
+    padding: 32px;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    border: 4px solid hsla(660, 20%, 20%, .8);
+}
+
+.text {
+    width: 150px;
 }
