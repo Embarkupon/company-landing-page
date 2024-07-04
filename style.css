@@ -7,6 +7,35 @@ body {
     margin: 0px;
 }
 
+.content {
+    max-width: 1200px;
+    align-self: center;
+    width: 100%;
+}
+
+/* title section */
+
+.container-title {
+    display: flex;
+    background-color: hsla(680, 20%, 20%, .6);
+    color: hsla(700, 80%, 80%, .8);
+    flex-direction: column;
+    gap: 150px;
+    padding: 16px;
+
+}
+
+.header {
+    flex: auto;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: hsla(700, 80%, 80%, .8);
+}
+
 .logo {
     font-size: 24px;
     font-weight: bold;
@@ -21,31 +50,11 @@ body {
     margin: 0px;
 }
 
-/* title section */
-
-.container-title {
-    display: flex;
-    background-color: hsla(680, 20%, 20%, .6);
-    color: hsla(700, 80%, 80%, .8);
-    justify-content: space-between;
-    flex-direction: column;
-    gap: 100px;
-    padding: 16px;
-}
-
-.header {
-    flex: auto;
-    margin: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    color: hsla(700, 80%, 80%, .8);
-}
-
 .title {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
 }
 
 .title-left {
@@ -77,9 +86,7 @@ body {
 }
 
 .title-image {
-    flex: 0 1 auto;
     width: 500px;
-    height: 250px;
 }
 
 /* information section */
@@ -131,12 +138,14 @@ body {
 }
 
 .quote {
-    flex: 1;
-    font-size: 32px;
+    font-size: 36px;
+    font-style: italic;
 }
 
 .quote-source {
-    align-self: flex-end;
+    font-size: 24px;
+    text-align: end;
+    font-weight: bold;
 }
 
 /* call to action section */
@@ -159,6 +168,7 @@ body {
     color: hsla(700, 80%, 80%, .8);
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .cta-title {
